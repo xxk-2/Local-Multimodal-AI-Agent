@@ -15,7 +15,7 @@
 ### 安装步骤
 1. 克隆仓库:
    ```bash
-   git clone <your-repo-link>
+   git clone git@github.com:xxk-2/Local-Multimodal-AI-Agent.git
    cd LocalAIAgent
 
 2. 安装依赖:
@@ -70,6 +70,7 @@ PDF处理: `pypdf`
 python main.py add_paper "./documents/attention_is_all_you_need.pdf" --topics "NLP, Computer Vision, Robotics"
 ```
 - 运行截图
+
 ![alt text](imgs/image.png)
 ### 6.2 语义搜索论文
 - 命令
@@ -77,6 +78,7 @@ python main.py add_paper "./documents/attention_is_all_you_need.pdf" --topics "N
 python main.py search_paper "Transformer 的核心架构是什么？"
 ```
 - 运行截图
+
 ![alt text](imgs/image-1.png)
 ### 6.3 建立图片索引
 - 命令
@@ -84,6 +86,7 @@ python main.py search_paper "Transformer 的核心架构是什么？"
 python main.py index_images "./images"
 ```
 - 运行截图
+
 ![alt text](imgs/image-2.png)
 ### 6.4 以文搜图
 #### case 1
@@ -92,6 +95,7 @@ python main.py index_images "./images"
 python main.py search_image "a cat"
 ```
 - 运行截图
+
 ![alt text](imgs/image-3.png)
 #### case 2
 - 命令
@@ -99,4 +103,5 @@ python main.py search_image "a cat"
 python main.py search_image "peaceful sunset at the beach"
 ```
 - 运行截图
+
 ![alt text](imgs/image-4.png)
